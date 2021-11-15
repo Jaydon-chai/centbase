@@ -54,7 +54,7 @@ export type Plan<Prices extends PlanPrices> = {
 export const MAX_NUM_OF_BASIC_NOTES = 100;
 
 const BASIC_FEATURES = [
-  { name: Feature.NumOfNotes, amount: MAX_NUM_OF_BASIC_NOTES },
+  { name: Feature.NumOfNotes, amount: Number.POSITIVE_INFINITY },
 ];
 const PRO_FEATURES = [
   { name: Feature.NumOfNotes, amount: Number.POSITIVE_INFINITY },
