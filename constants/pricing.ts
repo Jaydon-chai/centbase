@@ -51,8 +51,6 @@ export type Plan<Prices extends PlanPrices> = {
   features: readonly { name: Feature; amount: number }[];
 };
 
-export const MAX_NUM_OF_BASIC_NOTES = 100;
-
 const BASIC_FEATURES = [
   { name: Feature.NumOfNotes, amount: Number.POSITIVE_INFINITY },
 ];
